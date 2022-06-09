@@ -140,7 +140,7 @@ for dockerFile in $dockerFiles; do
         --build-arg NODE12_VERSION=$NODE12_VERSION \
         --build-arg NODE14_VERSION=$NODE14_VERSION \
         --build-arg NODE16_VERSION=$NODE16_VERSION \
-        --build-arg NODE16_VERSION=$NODE18_VERSION \
+        --build-arg NODE18_VERSION=$NODE18_VERSION \
         --build-arg DEBIAN_FLAVOR=$runtimeImageDebianFlavor \
         $labels \
         .
