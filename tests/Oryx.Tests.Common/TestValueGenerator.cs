@@ -21,7 +21,8 @@ namespace Microsoft.Oryx.Tests.Common
         {
             "12",
             "14",
-            "16"
+            "16",
+            "18"
         };
 
         private readonly static List<string> PythonVersions = new List<string>
@@ -51,7 +52,8 @@ namespace Microsoft.Oryx.Tests.Common
             {
                 "12",
                 "14",
-                "16"
+                "16",
+                "18"
             };
 
             return versions.Select(v => new object[] { v });
